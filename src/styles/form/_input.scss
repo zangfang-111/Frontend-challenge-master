@@ -1,0 +1,27 @@
+.input {
+  width: 100%;
+  height: 60px;
+  max-width: 380px;
+  margin-bottom: 28px;
+
+  input {
+    height: 100%;
+    width: 100%;
+    background: #3f414b;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 0 22px;
+
+    // input text styles
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    color: white;
+
+    &:focus {
+      outline: none;
+      border: 1px solid #f2c94c !important;
+    }
+  }
+}
